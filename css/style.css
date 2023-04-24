@@ -16,6 +16,13 @@ body{
     justify-content: space-between;
     margin: auto;
 }
+
+.titulo-medio{
+    font-size: 16px;
+    font-weight: 800;
+    color:#ffffff;
+}
+
 .redes-sociais{
     width: 130px;
     margin: 20px auto 0 auto;
@@ -168,6 +175,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 auto 40px auto;
 }
 
 .projetos{
@@ -203,6 +211,9 @@ body{
     overflow-y: hidden;
     margin: auto;
     padding-right: 200px;
+}
+.carrossel::-webkit-scrollbar{
+    display: none;
 }
 
 .bloco-projeto{
@@ -275,3 +286,89 @@ body{
     align-items: baseline;
 }
 
+/* *********** Skills ***************/
+.habilidades{
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.habilidade-rotina{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descricao-habilidade{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.lista-habilidade{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+}
+
+.lista-habilidade::-webkit-scrollbar{
+    display: none;
+}
+
+/* ************* Carreira ****************** */
+
+.experiencia{
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-descriçao{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.exp-profissional{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.lista-experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid rgba(123, 74, 226, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item-experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descricao-experiencia{
+    width: 80%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
+}
+
+.dados-experiencia{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
