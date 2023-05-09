@@ -1,0 +1,21 @@
+[
+    {
+        "titulo":"Densidade de texto",
+        "descrição":"Site para metrificar a densidade de palavras de um texto. Desenvolvido em HTML5, CSS3 e javaScript.",
+        "propProjeto":"JavaScript",
+        "propProjeto2":"HTML",
+        "imgProjeto":"images/display-contador.JPG",
+        "linkSite":"https://contador-palavras.vercel.app/",
+        "linkGit":"https://github.com/arvelino/DensidadeTexto"
+
+    },
+    {
+        "titulo":"Robotron",
+        "descrição":"Jogo para contrução de um robo. Interação com o usúario em javaScript.",
+        "propProjeto":"JavaScript",
+        "propProjeto2":"DOM",
+        "imgProjeto":"images/Display-robotron.png",
+        "linkSite":"https://robotron-rosy.vercel.app/",
+        "linkGit":"https://github.com/arvelino/Robotron"
+    }
+]

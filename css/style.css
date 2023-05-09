@@ -163,6 +163,7 @@ body{
 .img-sobre-mim{
     width: 100%;
     border-radius: 50%;
+    border: solid 1px rgba(255,255,255,.6);
 }
 
 .titulo-segundario{
