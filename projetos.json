@@ -17,5 +17,14 @@
         "imgProjeto":"images/Display-robotron.png",
         "linkSite":"https://robotron-rosy.vercel.app/",
         "linkGit":"https://github.com/arvelino/Robotron"
+    },
+    {
+        "titulo":"Lista de tarefas",
+        "descrição":"Lista de tarefas, utilizado javascript,HTML,CSS. aplicado localstorage,requisição Fetch e manipulação DOM.",
+        "propProjeto":"JavaScript",
+        "propProjeto2":"LocalStorage",
+        "imgProjeto":"images/Display-todo.png",
+        "linkSite":"https://to-do-list-six-liart.vercel.app/",
+        "linkGit":"https://github.com/arvelino/toDoList"
     }
 ]

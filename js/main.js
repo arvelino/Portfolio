@@ -20,19 +20,36 @@ const itemProjeto = (titulo,descrição,propProjeto,propProjeto2,
     listaProjeto.appendChild(liProjeto);                    
 }
 
+ const buscarProjetos = async (caminhoDoArquivo)=>{
+    try {
+        const response = await fetch(caminhoDoArquivo);
+        const data = await response.json();
+        return data;
+        
+    } catch (error) {
+        console.log('Arquivo não encontrado. '+error);
+    }
+}
 
 /************ Eventos */
 
 window.onload = ((evento)=>{
-     fetch("projetos.json")
-    .then(response=>response.json())
-    .then(data=>{
-        data.forEach((elemento) => {
+    buscarProjetos("projetos.json")
+    .then(dados =>{
+        dados.forEach((elemento) => {
             itemProjeto(elemento.titulo,elemento.descrição,elemento.propProjeto,elemento.propProjeto2,elemento.imgProjeto,elemento.linkSite,elemento.linkGit);
-            // console.log(elemento);            
-        });
+        })
+        
+        //  fetch("projetos.json")
+        // .then(response=>response.json())
+        // .then(data=>{
+        //     data.forEach((elemento) => {
+        //         itemProjeto(elemento.titulo,elemento.descrição,elemento.propProjeto,elemento.propProjeto2,elemento.imgProjeto,elemento.linkSite,elemento.linkGit);
+        //         // console.log(elemento);            
+        //     });
+        // })
+        // .catch(error=>{
+        //     console.error("Erro ao buscar os dados...", error);
+        // })
     })
-    .catch(error=>{
-        console.error("Erro ao buscar os dados...", error);
-    })
-})
+})    
