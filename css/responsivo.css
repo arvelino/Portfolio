@@ -259,7 +259,8 @@
         text-align: center;
     }
     .btn-contato{
-        padding: 10px 20px;
+        width: 200px;
+        padding: 15px 20px;
         border-radius: 10px;
     }
     .voltar-topo{
@@ -272,6 +273,14 @@
     .footer{
         width: 100%;
        
+    }
+    .redes-sociais-footer{
+        box-sizing: border-box;
+    }
+    .listas-redes-footer{
+        width: 100%;
+        gap: 1.5rem;
+        box-sizing: border-box;
     }
          
 }
