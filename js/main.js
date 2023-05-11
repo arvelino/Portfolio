@@ -2,16 +2,12 @@
 const listaProjeto = document.querySelector('#bloco-projeto');
 
 /************ Prototipos */
-const itemProjeto = (titulo,descrição,propProjeto,propProjeto2,
+const itemProjeto = (titulo,descrição,
     imgProjeto,linkSite,linkGit)=>{
     const liProjeto = document.createElement('li');
     liProjeto.classList.add('item-projeto');
     liProjeto.innerHTML = `<h3 class="titulo-projeto">${titulo}</h3>
                         <p class="descricao-projeto">${descrição}</p>
-                        <div class="prop-projeto">
-                            <p class="saudação">${propProjeto}</p>
-                            <p class="saudação">${propProjeto2}</p>
-                        </div>
                         <img src="${imgProjeto}" alt="Densidade de palavras" class="img-projeto">
                         <div class="cta-projeto">
                             <a href="${linkSite}" class="link-projeto" target="_blank">Site</a>
@@ -37,7 +33,7 @@ window.onload = ((evento)=>{
     buscarProjetos("projetos.json")
     .then(dados =>{
         dados.forEach((elemento) => {
-            itemProjeto(elemento.titulo,elemento.descrição,elemento.propProjeto,elemento.propProjeto2,elemento.imgProjeto,elemento.linkSite,elemento.linkGit);
+            itemProjeto(elemento.titulo,elemento.descrição,elemento.imgProjeto,elemento.linkSite,elemento.linkGit);
         })
         
         //  fetch("projetos.json")
