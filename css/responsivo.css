@@ -1,4 +1,7 @@
 @media screen and (min-width:760px) {
+    .titulo-medio{
+        font-size: 18px;
+    }
     .cabeçalho{
         width: 100%;
         margin: 10px auto;
@@ -58,7 +61,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 100px auto;
+        margin: 7rem auto 10rem;
         box-sizing: border-box;
     }
     .redes-mobile{
@@ -217,10 +220,10 @@
         justify-content: space-between;
         gap: 20px;
     }
-.exp-profissional,
-.exp-academica{
-    width: 100%;
-}
+    .exp-profissional,
+    .exp-academica{
+        width: 100%;
+    }
    
     .lista-experiencia{
         width: 100%;
@@ -239,6 +242,7 @@
     .descricao-experiencia{
         max-width: max-content;
         flex-wrap: wrap;
+        font-size: 16px;
     }
         
     /* ************** Contatos ************** */
