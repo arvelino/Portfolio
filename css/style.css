@@ -233,7 +233,7 @@ body{
 }
 
 .bloco-projeto{
-    width: 110%;
+    width: 100%;
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
