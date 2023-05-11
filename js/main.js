@@ -1,5 +1,6 @@
 /************ Seleção de elementos */
 const listaProjeto = document.querySelector('#bloco-projeto');
+const links = document.querySelectorAll('a[href^="#"]');
 
 /************ Prototipos */
 const itemProjeto = (titulo,descrição,
@@ -28,6 +29,19 @@ const itemProjeto = (titulo,descrição,
 }
 
 /************ Eventos */
+/* Efeito de scroll do mouse nos links do menu */
+links.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    target.classList.add('active');
+    setTimeout(() => {
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }, 100);
+  });
+});
 
 window.onload = ((evento)=>{
     buscarProjetos("projetos.json")

@@ -38,6 +38,15 @@
         color: rgba(255, 255, 255, 0.5);
     }
 
+    .fade-in {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .fade-in.active {
+        opacity: 1;
+    }
+
     /* Apresentação */
     .principal{
         width: 90%;
@@ -112,7 +121,7 @@
 
 
     .resumo{
-        width: 30%;
+        width: 20%;
         order: 2;
         flex-direction: column;
         align-items: end;
@@ -125,10 +134,10 @@
     }
 
     .btn-conversar{
-        width: 50%;
-        padding: 10px 10px;
+        width:100%;
+        padding: 15px 10px;
         font-size: 14px;
-        border-radius: 14px;    
+        border-radius: 14px;   
     }
 
     /**************** Sobre mim ****************/
@@ -199,18 +208,21 @@
     .experiencia{
         text-align: center;
         align-items: center;
+        margin: auto;
     }
     .container-experiencia{
-        margin: auto;
+        margin-right: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 20px;
-        align-items: center;
     }
+
+   
     .lista-experiencia{
         flex-direction: column;
         overflow: none;
+        align-items: center;
     }
         
     /* ************** Contatos ************** */

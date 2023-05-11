@@ -1,7 +1,7 @@
 [
     {
         "titulo":"Densidade de texto",
-        "descrição":"Site para metrificar a densidade de palavras de um texto. Desenvolvido em HTML5, CSS3 e javaScript.",
+        "descrição":"Site para metrificar a densidade de palavras de um texto. Linguagem: HTML5, CSS3 e JavaScript.",
         "imgProjeto":"images/display-contador.JPG",
         "linkSite":"https://contador-palavras.vercel.app/",
         "linkGit":"https://github.com/arvelino/DensidadeTexto"
@@ -16,7 +16,7 @@
     },
     {
         "titulo":"Lista de tarefas",
-        "descrição":"Lista de tarefas, utilizado javascript,HTML,CSS. aplicado localstorage,requisição Fetch e manipulação DOM.",
+        "descrição":"Lista de tarefas com a possibilidade de edições diversas. Linguagem: JavaScript, HTML e CSS. Aplicação: LocalStorage. Requisição: Fetch. Manipulação: DOM.",
         "imgProjeto":"images/Display-todo.png",
         "linkSite":"https://to-do-list-six-liart.vercel.app/",
         "linkGit":"https://github.com/arvelino/toDoList"
