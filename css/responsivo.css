@@ -217,12 +217,28 @@
         justify-content: space-between;
         gap: 20px;
     }
-
+.exp-profissional,
+.exp-academica{
+    width: 100%;
+}
    
     .lista-experiencia{
+        width: 100%;
         flex-direction: column;
         overflow: none;
         align-items: center;
+        flex-grow: 1;
+    }
+
+    .item-experiencia{
+        width: 100%;
+        min-height: 200px;
+        flex-grow: 2;
+        flex-basis: content;
+    }
+    .descricao-experiencia{
+        max-width: max-content;
+        flex-wrap: wrap;
     }
         
     /* ************** Contatos ************** */
