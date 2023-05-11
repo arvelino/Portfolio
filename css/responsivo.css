@@ -1,4 +1,4 @@
-@media screen and (min-width:580px) {
+@media screen and (min-width:760px) {
     .cabeçalho{
         width: 100%;
         margin: 10px auto;
@@ -57,56 +57,57 @@
     }    
     
     .apresentação{
-        width: 30%;
+        width: 33%;
         display: flex;
         flex-direction: column;
-        height: 150px;
+        justify-content: space-around;
     }
 
     .saudação{
         padding: 5px 10px;
         width: 120px;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 12px;
-        padding: 5px 10px;
+        padding: 10px 10px;
 
     }
     .saudação span{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .nome-apresentação{
-        width: 80%;
-        font-size:25px;    
-        line-height: 30px;
+        width: 100%;
+        font-size:38px;    
+        line-height: 40px;
     
     }
 
     .cargo{
-        font-size:10px;
+        font-size:14px;
     }
 
     .redes-desktop{
         display: flex;
         order: 2;
-        width: 80px;
+        width: 50%;
         margin: 20px 0;
     }
     .lista-redes{
-        width: 100%;
+        width: 80%;
         margin: auto;        
     }
     .item-redes img{
-        width: 20px;    
+        width: 2rem;    
     }
 
     .icone-apresentacao{
         order: 1;
-        width: 30%;
+        width: 400px;
+        margin: auto;
     }
     .img-apresentacao{
         margin: auto;
-        width: 360px;
+        width: 100%;
     }
 
 
@@ -120,12 +121,13 @@
 
     .link-download{
         justify-content: end;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .btn-conversar{
-        padding: 5px;
-        font-size: 10px;
+        width: 50%;
+        padding: 10px 10px;
+        font-size: 14px;
         border-radius: 14px;    
     }
 
@@ -164,6 +166,8 @@
     }
     .bloco-projeto{
         width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
     .menu-projeto{
@@ -172,15 +176,12 @@
         margin-bottom: 20px;
         
     }
-    .bloco-projeto{
-        gap: 20px;
-    }
 
     /* *********** Skills ***************/
     .habilidades{
         margin: 80px auto;
         align-items: center;
-        gap: 20px;
+        /* gap: 20px; */
     }
     .centralizar-titulo{
         text-align: center;
@@ -188,6 +189,7 @@
 
     .lista-habilidade{
         overflow: none;
+        flex-wrap: wrap;
     }
     .descricao-habilidade{
         text-align: center;
