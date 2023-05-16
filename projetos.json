@@ -1,7 +1,7 @@
 [
     {
         "titulo":"Densidade de texto",
-        "descrição":"Site para metrificar a densidade de palavras de um texto. tecnologias utilizadas: HTML5, CSS3 e JavaScript.",
+        "descrição":"Site para metrificar a densidade de palavras de um texto. Tecnologias utilizadas: HTML5, CSS3 e JavaScript.",
         "imgProjeto":"images/display-contador.JPG",
         "linkSite":"https://contador-palavras.vercel.app/",
         "linkGit":"https://github.com/arvelino/DensidadeTexto"
@@ -9,7 +9,7 @@
     },
     {
         "titulo":"Robotron",
-        "descrição":"Página de configuração de um robô. Projeto desenvolvido durante o curso FullStack da alura em parceria com o Grupo Boticário. Desenvolvido os códigos em javaScript.",
+        "descrição":"Página de configuração de um robô. Projeto desenvolvido durante o curso FullStack da Alura em parceria com o Grupo Boticário.Desenvolvido em JavaScript.",
         "imgProjeto":"images/Display-robotron.png",
         "linkSite":"https://robotron-rosy.vercel.app/",
         "linkGit":"https://github.com/arvelino/Robotron"
