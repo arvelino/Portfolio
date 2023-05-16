@@ -17,7 +17,7 @@
     {
         "titulo":"Lista de tarefas",
         "descrição":"Lista de tarefas com a possibilidade de edições diversas. Linguagem: JavaScript, HTML e CSS. Aplicação: LocalStorage. Requisição: Fetch. Manipulação: DOM.",
-        "imgProjeto":"images/Display-todo.png",
+        "imgProjeto":"images/display-todo.png",
         "linkSite":"https://to-do-list-six-liart.vercel.app/",
         "linkGit":"https://github.com/arvelino/toDoList"
     }
