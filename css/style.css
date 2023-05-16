@@ -38,6 +38,8 @@ body{
 }
 
 .redes-sociais{
+    display: flex;
+    justify-content: center;
     width: 130px;
     margin: 20px auto 0 auto;
 }
@@ -57,16 +59,16 @@ body{
 }
 
 .icone-apresentacao{
-    width: 100%;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto 2rem auto;
 }
 
 .img-apresentacao{
-    width: 300px;
-    margin: 0 auto 2rem auto ;
-
+    width: 100%;
+    margin-left: 1rem;
 }
 
 .apresentação{
